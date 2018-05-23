@@ -24,10 +24,8 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
 
-		<!-- Cookie Consent CSS, JS, and PHP include -->
+		<!-- Cookie Consent CSS -->
 		<link rel="stylesheet" type="text/css" href="/build/cc-gdpr-adapted.min.css" />
-		<script type='text/javascript' src='/build/cc-gdpr-adapted.min.js'></script>
-		<?php include ('../build/cc-gdpr-adapted.php'); ?>
 	</head>
 
 	<body class="" style="background-image: url('/demo/assets/images/dh-bg-repeat-tile-2.png'); background-repeat: repeat;">
@@ -61,6 +59,10 @@
 
 		<script type='text/javascript' src='/demo/assets/scripts/scripts-ver=1526918118.js'></script>
 		<script type='text/javascript' src='/demo/js/wp-embed.min-ver=4.9.6.js'></script>
+
+		<!-- Cookie Consent JS and PHP include -->
+		<script type='text/javascript' src='/build/cc-gdpr-adapted.min.js'></script>
+		<?php include ('../build/cc-gdpr-adapted.php'); ?>
 
 	</body>
 
