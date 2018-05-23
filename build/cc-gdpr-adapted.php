@@ -1,6 +1,6 @@
 <script>
     //Geo locate users for conditional consent popup
-    $.get("https://freegeoip.net/json/", function (response) {
+    jQuery.get("https://freegeoip.net/json/", function (response) {
 	    var country = response.country_code;
 	    var euCountries = ['AT', 'BE', 'BG', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'HR', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB'];
 	    var inEU = euCountries.indexOf(country) !== -1;
@@ -41,14 +41,14 @@
 							"text": "#333333"
 						},
 						"button": {
-							"background": "#7dbd57",
+							"background": "#ef4136",
 							"text": "#ffffff"
 	    		    	}
 	    		  	},
 				  	"type": "opt-out",
 				  	"content": {
-	    				"message": 'This site uses cookies to provide you with the best browsing experience. By clicking “Allow” you agree to our use of cookies. Once enabled, cookies can be disabled at any time.',
-	    				"link": 'Read our Privacy Policy',
+	    				"message": 'This site uses cookies to provide you with the best possilbe browsing experience.',
+	    				"link": 'Privacy Policy',
 						"dismiss": "Allow",
 						"allow": "Allow",
 						"deny": "Deny",
@@ -101,15 +101,15 @@
 							"text": "#333333"
 	    		    	},
 						"button": {
-							"background": "#7dbd57",
+							"background": "#ef4136",
 							"text": "#ffffff"
 	    		    	}
 	    		  	},
 				  	"content": {
-	    				"message": 'This site uses cookies to provide you with the best browsing experience. By closing this banner or continuing to browse the site you are agreeing to our use of cookies. To disable cookies, read our',
+	    				"message": 'This site uses cookies to provide you with the best possible browsing experience.',
 	    				"link": 'Privacy Policy',
-						"dismiss": "I Agree",
-						"allow": "I Agree",
+						"dismiss": "Cool!",
+						"allow": "Cool!",
 						"deny": "Deny",
 						"href": "https://YOUR-PRIVACY-POLICY-URL",
 	    		 	},
