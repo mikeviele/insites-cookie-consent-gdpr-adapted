@@ -11,3 +11,9 @@ I have taken the initial work done by Insites and adapted if for a better GDPR i
 I am not a lawyer, nor is this legal advice in any way shape or form. This is merely my take, based on the GDPR rules, of a cookie consent that satisfies the GDPR's need for the ability to allow true opt-in with the ability to change that choice in perpetuity for users visiting your site from the EU. It will also counter that functionality with a more informational version of the consent for all countries outside of the EU.
 
 More info and documentation coming soon...
+
+
+
+## Contact Info
+
+[mike@dev-hero.com](mailto:mike@dev-hero.com)
