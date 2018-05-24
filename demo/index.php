@@ -60,7 +60,7 @@
 		<script type='text/javascript' src='/demo/assets/scripts/scripts-ver=1526918118.js'></script>
 		<script type='text/javascript' src='/demo/js/wp-embed.min-ver=4.9.6.js'></script>
 
-		<!-- Cookie Consent JS and PHP include -->
+		<!-- Cookie Consent JS -->
 		<script type='text/javascript' src='/build/cc-gdpr-adapted.min.js'></script>
 
 	</body>
