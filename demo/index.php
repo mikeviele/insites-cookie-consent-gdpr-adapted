@@ -62,7 +62,6 @@
 
 		<!-- Cookie Consent JS and PHP include -->
 		<script type='text/javascript' src='/build/cc-gdpr-adapted.min.js'></script>
-		<?php include ('../build/cc-gdpr-adapted.php'); ?>
 
 	</body>
 

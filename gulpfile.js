@@ -10,7 +10,8 @@ var autoprefixer = require('gulp-autoprefixer');
 
 var buildFolder = './build';
 var jsBuildFiles = [
-  './src/cc-gdpr-adapted.js'
+  './src/cc-gdpr-adapted.js',
+  './src/consent.js'
 ];
 var cssBuildFiles = [
   // defined explicitly so they are combined in order
