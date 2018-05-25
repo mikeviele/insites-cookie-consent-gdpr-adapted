@@ -29,6 +29,11 @@
 	</head>
 
 	<body class="" style="background-image: url('/demo/assets/images/dh-bg-repeat-tile-2.png'); background-repeat: repeat;">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL5CVNH"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
 		<style>
 			body {
 				font-family: 'Josefin Sans', sans-serif;
