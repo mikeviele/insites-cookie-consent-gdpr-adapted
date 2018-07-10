@@ -1,6 +1,6 @@
 //Geo locate users for conditional consent popup
-jQuery.get("https://freegeoip.net/json/", function (response) {
-    var country = response.country_code;
+jQuery.get("https://geoip.nekudo.com/api/", function (response) {
+    var country = response.country.code;
     var euCountries = ['AT', 'BE', 'BG', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'HR', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB'];
     var inEU = euCountries.indexOf(country) !== -1;
     if(inEU){
